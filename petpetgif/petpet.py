@@ -31,4 +31,4 @@ def make(source, dest):
         canvas.paste(pet, mask=pet)
         images.append(canvas)
 
-    save_transparent_gif(images, durations=20, save_file=dest)
+    save_transparent_gif(images, durations=30, save_file=dest)
